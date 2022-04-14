@@ -1,0 +1,10 @@
+.App {
+ background-color: rgba(0,0,0,255);
+ color:whitesmoke;
+ width:100%;
+}
+button
+{
+    cursor: pointer
+}
+

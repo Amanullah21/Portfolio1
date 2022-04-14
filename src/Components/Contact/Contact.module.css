@@ -1,0 +1,35 @@
+.h1 {
+  text-align: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.color {
+  color: #d1b561;
+  height: 50px;
+  width: 50px;
+  
+}
+.mail_section{
+    text-align: center;
+    justify-content: center;
+}
+.mail_section a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 900px) {
+  .color {
+    height: 35px;
+    width: 35px;
+  }
+  .color1 {
+    height: 35px;
+    width: 35px;
+  }
+}
