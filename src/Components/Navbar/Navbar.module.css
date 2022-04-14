@@ -77,10 +77,10 @@
   }
     .margin {
       margin-top: 7.5%;
-      margin-left: 2%;
+      margin-left: 0.1%;
     }
     .icon {
-      margin-left: 5%;
+      margin-left: 0.2%;
     }
     .left:nth-child(1)
     {
@@ -88,6 +88,6 @@
     }
     .left
     {
-      margin-left: 5%;
+      margin-left: 3%;
     }
 }
