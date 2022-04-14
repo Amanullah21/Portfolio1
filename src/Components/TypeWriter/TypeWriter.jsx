@@ -8,6 +8,7 @@ function TypeWriter() {
         strings: [
           "Front-end Developer",
           "React Developer",
+          "Bloger"
         ],
         autoStart: true,
         loop: true,

@@ -24,9 +24,8 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Royal Brother</h2>
           <div className={styled.box}>
-            <p>
-              {" "}
-              CLone of Royal Brother <br />
+            <h4>CLone of Royal Brother</h4>
+            <p>              
               Royal Brothers is a bike and car rental company in India. Royal
               Brothers was founded in 2015 by three young engineers of
               Bengaluru. South India's first RTO authorised bike rental service.
@@ -76,8 +75,8 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Travelix Website</h2>
           <div className={styled.box}>
-            <p>
-              Clone of Travlix Website <br />
+          <h4>Clone of Travlix Website</h4>
+              <p>
               It is a tourism website which provides details for planning one’s
               holiday and travel to the best tourist places across the globe.
               <p className={styled.blue} onClick={() => setIsOpen(true)}>
@@ -122,7 +121,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      {/* ----project2 */}
+      {/* ----project3 */}
       <div className={styled.width}>
         <div className={styled.left}>
           <img className={styled.img} src={GoogleGrage} alt="logo" />
@@ -131,6 +130,7 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Google Digital Garage</h2>
           <div className={styled.box}>
+            <h4>Clone of Google Digital Garage</h4>
             <p>
               Google Digital Garage was created by Google in 2015 as a nonprofit
               program designed to help people improve their digital skills. It

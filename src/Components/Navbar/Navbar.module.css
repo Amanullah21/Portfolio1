@@ -1,6 +1,5 @@
 .flex {
   display: flex;
-  
 }
 .main
 {
@@ -66,4 +65,29 @@
   {
     margin-left: 5%;
   }
+}
+
+@media (max-width: 500px) {
+  .main
+  {
+    position:fixed;
+    width:100%;
+    height:110px;
+    background-color: rgba(0,0,0,255);
+  }
+    .margin {
+      margin-top: 7.5%;
+      margin-left: 2%;
+    }
+    .icon {
+      margin-left: 5%;
+    }
+    .left:nth-child(1)
+    {
+      margin-top: 30px;
+    }
+    .left
+    {
+      margin-left: 5%;
+    }
 }
