@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "./Intro.module.css";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import TypeWriter from "../TypeWriter/TypeWriter";
 const Intro = () => {
   return (
