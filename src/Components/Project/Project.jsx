@@ -13,9 +13,12 @@ const Project = () => {
   const [isOpen2, setIsOpen2] = useState(false);
   return (
     <div id="project">
-      <h1 className={styled.mid}><span style={{ color: "orange" }}>My</span> Projects</h1>
+      <h1 className={styled.mid}>
+        <span style={{ color: "orange" }}>My</span> Projects
+      </h1>
 
       {/* project 1 */}
+
       <div className={styled.width}>
         <div className={styled.left}>
           <img className={styled.img} src={RoyalBrother} alt="logo" />
@@ -25,7 +28,7 @@ const Project = () => {
           <h2 style={{ color: "orange" }}>Royal Brother</h2>
           <div className={styled.box}>
             <h4>CLone of Royal Brother</h4>
-            <p>              
+            <p>
               Royal Brothers is a bike and car rental company in India. Royal
               Brothers was founded in 2015 by three young engineers of
               Bengaluru. South India's first RTO authorised bike rental service.
@@ -52,13 +55,18 @@ const Project = () => {
           <h5>Tech Stack : React || Redux || MUI || JSON Server </h5>
           <div className={styled.flex}>
             <a
-              href="https://github.com/Amanullah21/Google_garage"
+              target="_blank"
+              href="https://github.com/Amanullah21/RoyalBrother"
               className={styled.size}
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a href="/" className={styled.size}>
+            <a
+              target="_blank"
+              href="https://amanullah21.github.io/RoyalBrother"
+              className={styled.size}
+            >
               <BiLink className={styled.size} />{" "}
             </a>
           </div>
@@ -75,8 +83,8 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Travelix Website</h2>
           <div className={styled.box}>
-          <h4>Clone of Travlix Website</h4>
-              <p>
+            <h4>Clone of Travlix Website</h4>
+            <p>
               It is a tourism website which provides details for planning one’s
               holiday and travel to the best tourist places across the globe.
               <p className={styled.blue} onClick={() => setIsOpen(true)}>
@@ -105,14 +113,14 @@ const Project = () => {
           </div>
           <h5> Tech Stack: HTML || CSS || JAVASCRIPT || JSON-server</h5>
           <div className={styled.flex}>
-            <a
+            <a target="_blank"
               className={styled.size}
               href="https://github.com/Amanullah21/Travelix-Clone"
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a
+            <a target="_blank"
               className={styled.size}
               href="https://amanullah21.github.io/Travelix-Clone/"
             >
@@ -143,13 +151,6 @@ const Project = () => {
             <Modal className={styled.background} isOpen={isOpen1}>
               <h1 style={{ color: "orange" }}>Google Digital Garage</h1>
               <p>
-                Google Digital Garage is a Grow with Google programme that
-                provides free training and tools to help grow your career or
-                business in the UK. Since 2015, the Google Digital Garage has
-                visited more than 500 locations across the UK, and trained more
-                than 400,000 people.
-              </p>
-              <p>
                 Learn digital skills for free at your own pace, with
                 personalised training designed to help you develop your career,
                 market your business and more.
@@ -163,14 +164,16 @@ const Project = () => {
           </div>
           <h5>HTML5 || CSS3|| JAVASCRIPT </h5>
           <div className={styled.flex}>
-            <a
+            <a target="_blank"
               href="https://github.com/Amanullah21/Google_garage"
               className={styled.size}
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a href="/" className={styled.size}>
+            <a 
+              target="_blank"
+              href="https://amanullah21.github.io/Google_garage"className={styled.size}>
               <BiLink className={styled.size} />{" "}
             </a>
           </div>
