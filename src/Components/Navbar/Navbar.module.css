@@ -17,19 +17,19 @@
   margin-left: 28%;
   margin-top: 30px;
   font-weight: bold;
-  cursor: pointer
+  cursor: pointer;
 }
 .left {
   margin-left: 5%;
   margin-top: 30px;
   font-weight: bold;
-  cursor: pointer
+  cursor: pointer;
 }
 .margin:hover {
   color: #d1b561;
 }
 .left:hover {
-  color: #d1b561;
+  color: orange;
 }
 .icon {
   margin-left: 28%;
