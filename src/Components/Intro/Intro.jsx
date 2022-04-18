@@ -21,14 +21,14 @@ const Intro = () => {
       </h3>
       <a
         className={styled.img}
-        target="_blank"
+        target="_blank" rel="noreferrer"
         href="https://www.linkedin.com/in/amanullah21/"
       >
         <button className={styled.btn}>Let's Chat</button>
       </a>
       <a
         className={styled.img}
-        target="_blank"
+        target="_blank" rel="noreferrer"
         href="https://drive.google.com/file/d/1-z07miUCgTmRkGmKEMz6bH9bizbQzA1V/view?usp=sharing"
         download
       >

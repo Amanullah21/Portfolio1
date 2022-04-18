@@ -55,7 +55,7 @@ const Project = () => {
           <h5>Tech Stack : React || Redux || MUI || JSON Server </h5>
           <div className={styled.flex}>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://github.com/Amanullah21/RoyalBrother"
               className={styled.size}
             >
@@ -63,7 +63,7 @@ const Project = () => {
               <AiFillGithub className={styled.size} />
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://amanullah21.github.io/RoyalBrother"
               className={styled.size}
             >
@@ -113,14 +113,14 @@ const Project = () => {
           </div>
           <h5> Tech Stack: HTML || CSS || JAVASCRIPT || JSON-server</h5>
           <div className={styled.flex}>
-            <a target="_blank"
+            <a target="_blank" rel="noreferrer"
               className={styled.size}
               href="https://github.com/Amanullah21/Travelix-Clone"
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a target="_blank"
+            <a target="_blank" rel="noreferrer"
               className={styled.size}
               href="https://amanullah21.github.io/Travelix-Clone/"
             >
@@ -164,7 +164,7 @@ const Project = () => {
           </div>
           <h5>HTML5 || CSS3|| JAVASCRIPT </h5>
           <div className={styled.flex}>
-            <a target="_blank"
+            <a target="_blank" rel="noreferrer"
               href="https://github.com/Amanullah21/Google_garage"
               className={styled.size}
             >
@@ -172,7 +172,7 @@ const Project = () => {
               <AiFillGithub className={styled.size} />
             </a>
             <a 
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://amanullah21.github.io/Google_garage"className={styled.size}>
               <BiLink className={styled.size} />{" "}
             </a>
