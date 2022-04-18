@@ -38,8 +38,10 @@
   }
   .img {
     padding: 2%;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 140%;
+    height: 140%;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
   }
 }

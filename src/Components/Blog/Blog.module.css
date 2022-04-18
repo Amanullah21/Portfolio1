@@ -2,23 +2,21 @@
     text-align: center;
 }
 .blog_container{
-    height: 500px;
+    height: 530px;
     display: flex;
     gap: 30px;
     justify-content: center;
     text-align: center;
-    margin: 10px 15%;
-    padding-top: 50px;
-    /* background-color: blueviolet !important; */
+    margin: 40px 15%;
+    padding-top: 30px;
 }
 .blog_Card{
-    height: 95%;
+    height: 80%;
     width: 100%;
     /* margin-top: 30px; */
     border-radius: 30px;
     justify-content: center;
     text-align: center;
-    border: 1px solid orange;
     
 }
 .blog_img{
@@ -43,8 +41,6 @@
         justify-content: center;
         text-align: center;
         margin: 10px 15%;
-        /* padding-top: 20px; */
-        /* background-color: blueviolet !important; */
     }
     .blog_Card{
         height: 33%;
