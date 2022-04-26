@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
+  "homepage": "https://amanullah21.github.io/Portfolio1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amanullah21.github.io/Portfolio1",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
