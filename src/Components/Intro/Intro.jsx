@@ -7,13 +7,13 @@ const Intro = () => {
     
     <div id="intro">
       <h1 className={styled.h1}>About <span style={{ color: "orange" }}>Me</span></h1>
-      <h3 className={styled.color}>Hi, My Name Is</h3>
+      <h3 className={styled.color}>Hi, My Name is</h3>
       <p className={styled.fontS}><span style={{ color: "orange" }}>Md</span> Amanullah</p>
       <p className={styled.fontS2}>
         <TypeWriter />
       </p>
       <h3 className={styled.left}>
-        My name is <span style={{ color: "orange" }}>Md Amanullah</span>, I am a Full Stack Web developer and a blogger
+        My name is <span style={{ color: "orange" }}>Md Amanullah</span>, I am a Front-End Web developer and a blogger
         having experience of solving more than 100+ DSA problems across
         different platforms like Leetcode, Hackerrank, Geeksforgeeks and
         self-attained skill set which contains most used and compatible JS

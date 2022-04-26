@@ -1,2 +1,1 @@
-### Amanullah
-npm
+git 
