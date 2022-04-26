@@ -2,13 +2,14 @@
     text-align: center;
 }
 .blog_container{
-    height: 530px;
+    height: 500px;
     display: flex;
     gap: 30px;
     justify-content: center;
     text-align: center;
     margin: 40px 15%;
     padding-top: 30px;
+    /* background-color: aquamarine; */
 }
 .blog_Card{
     height: 80%;
@@ -51,7 +52,7 @@
         text-align: center;
         margin: 5px 10px 5px 1px;
         /* background-color: aqua !important; */
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
     }
     .blog_img{
         height: 83%;

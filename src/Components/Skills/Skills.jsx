@@ -42,6 +42,7 @@ const Skills = () => {
           <AiFillGithub className={styled.color} />
           <h3 className={styled.mid}>GitHub</h3>
         </div>
+        
       </div>
       <div className={styled.flex}>
         
