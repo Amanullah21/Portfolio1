@@ -6,7 +6,7 @@
  
 I am a Front-End Web developer and a blogger having experience of solving more than 100+ DSA problems across different platforms like Leetcode, Hackerrank, Geeksforgeeks and self-attained skill set which contains most used and compatible JS framework - React JS.
 
-# Portfoli
+# Portfolio
 It is my portfolio Overview and want to see my portfolio  <br/>
 [Click me](https://amanullah21.github.io/Portfolio1) 
 ## Tech stack 
