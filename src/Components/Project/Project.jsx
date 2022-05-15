@@ -29,7 +29,7 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Adidas</h2>
           <div className={styled.box}>
-            <h4>CLone of Adidas Website</h4>
+            <h4>Clone of Adidas Website</h4>
             <p>
               Adidas is a German base company. That designs and manufactures
               shoes, clothing and accessories. It is the largest sportswear
@@ -89,7 +89,7 @@ const Project = () => {
           <h4 className={styled.color}>Featured</h4>
           <h2 style={{ color: "orange" }}>Royal Brother</h2>
           <div className={styled.box}>
-            <h4>CLone of Royal Brother</h4>
+            <h4>Clone of Royal Brother</h4>
             <p>
               Royal Brothers is a bike and car rental company in India. Royal
               Brothers was founded in 2015 by three young engineers of
