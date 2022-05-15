@@ -6,18 +6,80 @@ import Modal from "react-modal";
 import RoyalBrother from "../Images/RoyalBrother.png";
 import Travlix from "../Images/Travlix.png";
 import GoogleGrage from "../Images/googleGrage.png";
+import Adidas from "../Images/Adidas.PNG";
 
 const Project = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
   return (
     <div id="project">
       <h1 className={styled.mid}>
         <span style={{ color: "orange" }}>My</span> Projects
       </h1>
 
-      {/* project 1 */}
+      {/* Project no 1 adidas */}
+
+      <div className={styled.width}>
+        <div className={styled.left}>
+          <img className={styled.img} src={Adidas} alt="Adidas" />
+        </div>
+        <div className={styled.right}>
+          <h4 className={styled.color}>Featured</h4>
+          <h2 style={{ color: "orange" }}>Adidas</h2>
+          <div className={styled.box}>
+            <h4>CLone of Adidas Website</h4>
+            <p>
+              Adidas is a German base company. That designs and manufactures
+              shoes, clothing and accessories. It is the largest sportswear
+              manufacturer in Europe, and the second largest in the world, after
+              Nike.
+              <p>It is Solo Project</p>
+              <p onClick={() => setIsOpen3(true)} className={styled.blue}>
+                Read More
+              </p>
+            </p>
+            <Modal className={styled.background} isOpen={isOpen3}>
+              <h1 style={{ color: "orange" }}>Adidas</h1>
+              <h4 className={styled.color}>It is Solo Project</h4>
+              <p>
+                Role:- Created Home, Men and Product page, adding filtering and
+                Sorting functionality, add to card, show bag, add shipping
+                details and buy it.
+              </p>
+              <p></p>
+              <h5>Tech Stack : React || Redux || MUI || JSON Server </h5>
+
+              <button onClick={() => setIsOpen3(false)} className={styled.btn}>
+                Close
+              </button>
+            </Modal>
+          </div>
+          <h5>Tech Stack : React || Redux || MUI || JSON Server </h5>
+          <div className={styled.flex}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Amanullah21/Adidas"
+              className={styled.size}
+            >
+              {" "}
+              <AiFillGithub className={styled.size} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://amanullah21.github.io/Adidas"
+              className={styled.size}
+            >
+              <BiLink className={styled.size} />{" "}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* project 2 */}
 
       <div className={styled.width}>
         <div className={styled.left}>
@@ -55,7 +117,8 @@ const Project = () => {
           <h5>Tech Stack : React || Redux || MUI || JSON Server </h5>
           <div className={styled.flex}>
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/Amanullah21/RoyalBrother"
               className={styled.size}
             >
@@ -63,7 +126,8 @@ const Project = () => {
               <AiFillGithub className={styled.size} />
             </a>
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://amanullah21.github.io/RoyalBrother"
               className={styled.size}
             >
@@ -73,7 +137,7 @@ const Project = () => {
         </div>
       </div>
 
-      {/* //project no 2 */}
+      {/* //project no 3*/}
 
       <div className={styled.width}>
         <div className={styled.left}>
@@ -94,12 +158,7 @@ const Project = () => {
             <Modal className={styled.background} isOpen={isOpen}>
               <h1 style={{ color: "orange" }}>Travlix</h1>
               <p>
-                Clone of the Travelix Website It is a tourism website which
-                provides details for planning one’s holiday and travel to the
-                best tourist places across the globe. Completed this project in
-                6 days. Team had 3 members.
                 <h3> Tech Stack: HTML, CSS, JAVASCRIPT, JSON-server</h3>
-                A collaborative project in 5 days with 3 people
                 <br />
                 Roles & Responsibility:- Lead the team, created about-us,
                 section parts and managed the whole code on GitHub. learned to
@@ -113,14 +172,18 @@ const Project = () => {
           </div>
           <h5> Tech Stack: HTML || CSS || JAVASCRIPT || JSON-server</h5>
           <div className={styled.flex}>
-            <a target="_blank" rel="noreferrer"
+            <a
+              target="_blank"
+              rel="noreferrer"
               className={styled.size}
               href="https://github.com/Amanullah21/Travelix-Clone"
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a target="_blank" rel="noreferrer"
+            <a
+              target="_blank"
+              rel="noreferrer"
               className={styled.size}
               href="https://amanullah21.github.io/Travelix-Clone/"
             >
@@ -164,16 +227,21 @@ const Project = () => {
           </div>
           <h5>HTML5 || CSS3|| JAVASCRIPT </h5>
           <div className={styled.flex}>
-            <a target="_blank" rel="noreferrer"
+            <a
+              target="_blank"
+              rel="noreferrer"
               href="https://github.com/Amanullah21/Google_garage"
               className={styled.size}
             >
               {" "}
               <AiFillGithub className={styled.size} />
             </a>
-            <a 
-              target="_blank" rel="noreferrer"
-              href="https://amanullah21.github.io/Google_garage"className={styled.size}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://amanullah21.github.io/Google_garage"
+              className={styled.size}
+            >
               <BiLink className={styled.size} />{" "}
             </a>
           </div>
