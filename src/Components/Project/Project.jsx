@@ -70,7 +70,7 @@ const Project = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://amanullah21.github.io/Adidas"
+              href="https://amanullah21.github.io/adidas"
               className={styled.size}
             >
               <BiLink className={styled.size} />{" "}

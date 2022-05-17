@@ -29,7 +29,7 @@ const Intro = () => {
       <a
         className={styled.img}
         target="_blank" rel="noreferrer"
-        href="https://drive.google.com/file/d/1-z07miUCgTmRkGmKEMz6bH9bizbQzA1V/view?usp=sharing"
+        href="https://drive.google.com/drive/folders/1IXMneTx3gSAHHnlsMBk-rC4hfmu1fcYr?usp=sharing"
         download
       >
         <button className={styled.btn}>See My Resume</button>
