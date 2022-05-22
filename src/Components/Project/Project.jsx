@@ -128,7 +128,7 @@ const Project = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://amanullah21.github.io/RoyalBrother"
+              href="https://royal-brother-1amanpce-gmailcom.vercel.app/"
               className={styled.size}
             >
               <BiLink className={styled.size} />{" "}
