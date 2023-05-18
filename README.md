@@ -2,7 +2,7 @@
 # Hi,👋
 
 ## My Name is Md Amanullah <br/>
- <img src="https://readme-typing-svg.herokuapp.com?lines=Front+End+Web+Developer;&center=true&width=400&height=50"></a>
+ <img src="https://readme-typing-svg.herokuapp.com?lines=Web+Developer+at+Capazlabs;&center=true&width=400&height=50"></a>
  
 I am a Front-End Web developer and a blogger having experience of solving more than 100+ DSA problems across different platforms like Leetcode, Hackerrank, Geeksforgeeks and self-attained skill set which contains most used and compatible JS framework - React JS.
 
